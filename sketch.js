@@ -14,7 +14,7 @@ var cucu;
 var cucuimg;
 var choice;
 var coins=25;
-var gamestate=0;
+var gamestate=1;
 var skip;
 var skipimg;
 function preload(){
