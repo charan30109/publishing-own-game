@@ -15,8 +15,6 @@ var cucuimg;
 var choice;
 var coins=25;
 var gamestate=1;
-var skip;
-var skipimg;
 function preload(){
 background1=loadImage("images/farm_land.png");
 houseimg=loadImage("images/house.jpeg");
@@ -24,7 +22,7 @@ appleimg=loadImage("images/apple.png");
 seedimg=loadImage("images/seed.jpeg");
 carrotimg=loadImage("images/carrot.png");
 cucuimg=loadImage("images/cucumber.png");
-//skipimg=loadImage("mages/skipimg")
+
 
 }
 function setup() {
@@ -51,9 +49,7 @@ function setup() {
   cucu=createSprite(width-1000,height-270);
   cucu.addImage(cucuimg);
   cucu.scale=0.2;
-  //skip=createSprite(width-1000,200,200,200);
-    //skip=addImage(skipimg);
-    //skip.visible=false;
+  
     
 }
 
